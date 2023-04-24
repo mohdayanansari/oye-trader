@@ -4,8 +4,6 @@
   "private": true,
   "author": "Mohd Ayan Ansari",
   "engines": {
-    "node": ">=16.17.0",
-    "yarn": ">=1.22.19",
     "npm": "please-use-yarn"
   },
   "scripts": {
