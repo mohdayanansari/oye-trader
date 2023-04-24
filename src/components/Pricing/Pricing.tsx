@@ -43,7 +43,7 @@ const Pricing = (props: Props) => {
             {/* payment btn */}
             <Button
               variant="outlined"
-              className="!border-2  !border-white !w-[80%] !h-[80px] !round!text-white !font-bold !capitalize !text-[24px] mt-5 hover:!bg-green-2 !flex !flex-col !items-center !justify-center !pb-2"
+              className="!border-2  !border-white !w-[80%] !h-[80px] !rounded-2xl !text-white !font-bold !capitalize !text-[24px] mt-5 hover:!bg-green-2 !flex !flex-col !items-center !justify-center !pb-2"
             >
               Book your seat now
               <p className='text-sm font-normal'>offer expiring soon!!</p>
