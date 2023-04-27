@@ -30,7 +30,7 @@ const OurApp = (props: Props) => {
           user-friendly interface, making it easy to navigate through various
           trading options and learn more about the stock market. So, what are
           you waiting for? Download Oye Trader now and take your trading game
-          to the next level.
+          to the next level.
         </p>
         <Link
           href={'https://play.google.com/store/apps/details?id=co.diy17.wczoq'}
