@@ -14,7 +14,7 @@ const OurApp = (props: Props) => {
           width={230}
           height={450}
           alt="Oye Trader App"
-          className='relative'
+          className="relative"
         />
       </div>
       <div className="w-1/2">
@@ -23,10 +23,14 @@ const OurApp = (props: Props) => {
           Our New App
         </h3>
         <p className="mt-[-30px] mb-[30px] text-gray-700 w-[80%]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          ipsa mollitia odit consequatur repellat eos nam qui! Tenetur quaerat
-          iste sint sequi quia dolorem, incidunt repudiandae sapiente quis
-          perspiciatis ut.
+          Whether you&apos;re a seasoned trader or a novice investor, this app
+          has something for everyone. With real-time market updates, expert
+          analysis, and trading strategies, you can make informed investment
+          decisions and stay ahead of the curve. Oye Trader offers a
+          user-friendly interface, making it easy to navigate through various
+          trading options and learn more about the stock market. So, what are
+          you waiting for? Download Oye Trader now and take your trading game
+          to the next level.
         </p>
         <Link
           href={'https://play.google.com/store/apps/details?id=co.diy17.wczoq'}

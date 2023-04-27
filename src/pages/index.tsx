@@ -34,12 +34,12 @@ export default function Home() {
         <meta property="og:image" content={'/imgs/og.png'} />
 
       </Head>
-      <main className={`${inter.className} w-full `}>
+      <main className={`${inter.className} w-full bg-slate-50`}>
         <Header />
         <Hero />
         <Testimonials />
         <Pricing />
-        <section className="flex justify-center w-full bg-[#f2f2f2] drop-shadow-xl ">
+        <section className="flex justify-center w-full bg-[#f2f2f2] drop-shadow-xl mt-20">
           <div className="w-full md:w-[70%]  flex justify-center p-10 items-center h-[300px]">
             <div className="flex items-center justify-center">
               <div>
@@ -75,7 +75,7 @@ export default function Home() {
                 </h1>
                 <p className="text-gray-600 ">
                   Get your amount refunded within 7 days if you are not
-                  satisfied by the workshop
+                  satisfied by the Workshop.
                 </p>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
         </section>
         <Curriculum />
         <OurApp />
-        <FAQ />
+        {/* <FAQ /> */}
         <FooterSection />
       </main>
     </>

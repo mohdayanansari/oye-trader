@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
         </div>
         {/* ------------------Description------------ */}
         <div className="flex flex-col flex-1">
-          <p className="text-sm text-slate-900 mt-10 md:mt-2">Basic to advanced</p>
+          <p className="text-sm text-slate-900 mt-10 md:mt-2">Basic to Advanced</p>
           <hr />
           <h1 className="text-[28px] font-light text-slate-900 mt-2">
             Learn
@@ -53,7 +53,7 @@ const Hero = (props: Props) => {
               Passive Income{' '}
             </span>
             through{' '}
-            <span className="underline decoration-orange-700 font-bold">
+            <span className=" font-bold">
               Trading
             </span>
             .
@@ -63,8 +63,8 @@ const Hero = (props: Props) => {
           <Timer expiryTimestamp={time} />
           {/* ---------------CTA BUTTON---------------- */}
           <Button className="!bg-green-1 hover:!bg-green-2 !mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
-            Start your Journey Today
-            <span className="text-xs font-normal capitalize text-black/50 mt-[-5px] mb-[5px]">
+            Book your seat now
+            <span className="text-xs font-normal capitalize text-black/50 ">
               offer expiring soon
             </span>
           </Button>

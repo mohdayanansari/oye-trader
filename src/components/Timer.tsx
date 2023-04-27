@@ -24,22 +24,24 @@ const Timer = ({ expiryTimestamp }: Props) => {
     <div className="w-full flex justify-center text-center">
       <div className="text-[32px] md:text-[60px] flex text-black/20">
         <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-xl drop-shadow-lg">
-          <span className="mt-[-5px] md:mt-[-20px]">{days}</span>
+          <span className="mt-[-5px] md:mt-[-20px]">
+            {days < 10 ? `0${days}` : days}
+          </span>
           <span className="text-xs text-white/40 mt-[-10px]">Day</span>{' '}
         </div>
         :
         <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-xl drop-shadow-lg">
-          <span className="mt-[-5px] md:mt-[-20px]">{hours}</span>
+          <span className="mt-[-5px] md:mt-[-20px]">{hours < 10 ? `0${hours}` : hours}</span>
           <span className="text-xs text-white/40 mt-[-10px]">Hours</span>{' '}
         </div>
         :
         <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-xl drop-shadow-lg">
-          <span className="mt-[-5px] md:mt-[-20px]">{minutes}</span>
+          <span className="mt-[-5px] md:mt-[-20px]">{minutes < 10 ? `0${minutes}` : minutes}</span>
           <span className="text-xs text-white/40 mt-[-10px]">Minutes</span>{' '}
         </div>
         :
         <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-xl drop-shadow-lg">
-          <span className="mt-[-5px] md:mt-[-20px]">{seconds}</span>
+          <span className="mt-[-5px] md:mt-[-20px]">{seconds < 10 ? `0${seconds}` : seconds}</span>
           <span className="text-xs text-white/40 mt-[-10px]">Seconds</span>{' '}
         </div>
       </div>
