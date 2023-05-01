@@ -6,8 +6,8 @@ type Props = {};
 
 const OurApp = (props: Props) => {
   return (
-    <section className="h-screen bg-slate-50 flex justify-center items-center w-full">
-      <div className="relative w-1/2 flex justify-center">
+    <section className="flex items-center justify-center w-full h-screen bg-slate-50">
+      <div className="relative flex justify-center w-1/2">
         <div className="absolute rounded-full top-[60px] h-[400px] w-[400px] bg-gradient-to-tl from-blue-800 to-blue-600 " />
         <Image
           src={'/imgs/phn.png'}
@@ -20,7 +20,7 @@ const OurApp = (props: Props) => {
       <div className="w-1/2">
         <h1 className="text-[78px] font-black text-[#252525]">Download</h1>
         <h3 className="text-[52px] font-light text-[#252525] mt-[-30px] mb-[30px]">
-          Our New App
+          Oye Trader App
         </h3>
         <p className="mt-[-30px] mb-[30px] text-gray-700 w-[80%]">
           Whether you&apos;re a seasoned trader or a novice investor, this app

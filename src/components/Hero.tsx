@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
       <div className="flex flex-col lg:flex-row px-[20px]  md:px-[100px] md:gap-8 w-full justify-between ">
         {/* --------------Video--------------- */}
         <div>
-          <div className="p-3 rounded-xl bg-white drop-shadow-xl border border-gray-100">
+          <div className="p-3 bg-white border border-gray-100 rounded-xl drop-shadow-xl">
             <video
               autoPlay
               loop
@@ -26,38 +26,35 @@ const Hero = (props: Props) => {
         </div>
         {/* ------------------Description------------ */}
         <div className="flex flex-col flex-1">
-          <p className="text-sm text-slate-900 mt-10 md:mt-2">Basic to Advanced</p>
+          <p className="mt-10 text-sm text-slate-900 md:mt-2">
+            Basic to Advanced
+          </p>
           <hr />
           <h1 className="text-[28px] font-light text-slate-900 mt-2">
             Learn
-            <span className="text-blue-700 font-black">
+            <span className="font-black text-blue-700">
               {' '}
               Professional Trading Skills{' '}
             </span>
             with India’s Most
-            <span className="text-green-2 font-black ">
+            <span className="font-black text-green-2 ">
               {' '}
               Powerful Online Program
             </span>
             .
           </h1>
-          <h4 className="text-[18px] text-slate-900 mt-5 mb-5">
-            Become a
-            <span className="font-bold capitalize text-blue-700">
-              {' '}
-              Profitable Trader{' '}
-            </span>
-            and generate your
-            <span className="font-bold capitalize text-rose-500">
-              {' '}
-              Passive Income{' '}
-            </span>
-            through{' '}
-            <span className=" font-bold">
-              Trading
-            </span>
-            .
-          </h4>
+
+          <div className="my-5 mb-10 text-[28px] font-light text-gray-900">
+            <h1>
+              Starting from
+              <span className="font-black text-blue-700">
+                {' '}
+                15
+                <span className='text-xs mb-[-20px]'>th</span>{" "}
+                may 2023, 09:00-PM Onwards
+              </span>
+            </h1>
+          </div>
           {/* Timer */}
 
           <Timer expiryTimestamp={time} />
@@ -68,7 +65,9 @@ const Hero = (props: Props) => {
               offer expiring soon
             </span>
           </Button>
-          <p className='text-center mt-5 text-xl animate-pulse'>Limited Time Offer</p>
+          <p className="mt-5 text-xl text-center animate-pulse">
+            Limited Time Offer
+          </p>
         </div>
       </div>
     </div>
