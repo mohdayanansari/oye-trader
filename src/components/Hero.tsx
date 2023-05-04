@@ -1,6 +1,7 @@
 import React from 'react';
 import Timer from './Timer';
 import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -50,8 +51,8 @@ const Hero = (props: Props) => {
               <span className="font-black text-blue-700">
                 {' '}
                 15
-                <span className='text-xs mb-[-20px]'>th</span>{" "}
-                may 2023, 09:00-PM Onwards
+                <span className="text-xs mb-[-20px]">th</span> may 2023,
+                09:00-PM Onwards
               </span>
             </h1>
           </div>
@@ -59,12 +60,14 @@ const Hero = (props: Props) => {
 
           <Timer expiryTimestamp={time} />
           {/* ---------------CTA BUTTON---------------- */}
-          <Button className="!bg-green-1 hover:!bg-green-2 !mt-5 md:!mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
-            Book your seat now
-            <span className="text-xs font-normal capitalize text-black/50 ">
-              offer expiring soon
-            </span>
-          </Button>
+          <Link href="https://rzp.io/l/oye-trader" className='flex w-full'>
+            <Button className="!bg-green-1 hover:!bg-green-2 !mt-5 !w-full md:!mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
+              Book your seat now
+              <span className="text-xs font-normal capitalize text-black/50 ">
+                offer expiring soon
+              </span>
+            </Button>
+          </Link>
           <p className="mt-5 text-xl text-center animate-pulse">
             Limited Time Offer
           </p>
