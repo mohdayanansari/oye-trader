@@ -7,7 +7,7 @@ type Props = {};
 const OurApp = (props: Props) => {
   return (
     <section className="flex flex-col md:items-center md:justify-center w-full md:h-screen md:flex-row bg-slate-50 px-[10px] md:px-0">
-      <div className="relative flex justify-center hidden w-1/2 md:block">
+      <div className="relative items-center justify-center hidden w-1/2 md:flex">
         <div className="absolute rounded-full top-[60px] h-[400px] w-[400px] bg-gradient-to-tl from-blue-800 to-blue-600 " />
         <Image
           src={'/imgs/phn.png'}
@@ -19,10 +19,10 @@ const OurApp = (props: Props) => {
       </div>
       <div className="md:w-1/2">
         <h1 className="text-4xl md:text-[78px] font-black text-[#252525]">Download</h1>
-        <h3 className="text-4xl md:text-[52px] font-light text-[#252525] md:mt-[-30px] md:mb-[30px]">
+        <h3 className="text-4xl md:text-[52px] font-light text-[#252525] mt-10">
           Oye Trader App
         </h3>
-        <p className="md:mt-[-30px] md:mb-[30px] text-gray-700 md:w-[80%] text-sm md:text-base mt-10 md:mt-0">
+        <p className=" md:mb-[30px] text-gray-700 md:w-[80%] text-sm md:text-base mt-10 ">
           Whether you&apos;re a seasoned trader or a novice investor, this app
           has something for everyone. With real-time market updates, expert
           analysis, and trading strategies, you can make informed investment

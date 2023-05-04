@@ -7,9 +7,9 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="flex flex-col md:flex-row items-center py-5 md:py-0 max-h-max md:h-[100px] justify-between md:px-[100px] drop-shadow-lg w-full border-b bg-white ">
+    <header className="flex flex-col md:flex-row items-center md:py-5 md:py-0 max-h-max md:h-[100px] justify-between md:px-[100px] drop-shadow-lg w-full border-b bg-white ">
       <Link href="/">
-        <div className="relative  ">
+        <div className="relative ">
           <Image
             src="/logo/logo-hr-black.png"
             //   fill
@@ -20,9 +20,9 @@ const Header = (props: Props) => {
           />
         </div>
       </Link>
-      <div className="mt-5 md:mt-0">
+      <div className="hidden mt-5 md:mt-0 md:block">
         <p className="flex gap-1">
-          <span className="flex gap-1 items-center font-bold text-blue-600">
+          <span className="flex items-center gap-1 font-bold text-blue-600">
             <FiHelpCircle className="text-[20px] text-blue-600" />
             Need Help?
           </span>
