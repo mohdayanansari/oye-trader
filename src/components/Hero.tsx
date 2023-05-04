@@ -30,7 +30,7 @@ const Hero = (props: Props) => {
             Basic to Advanced
           </p>
           <hr />
-          <h1 className="text-[28px] font-light text-slate-900 mt-2">
+          <h1 className="text-[18px] md:text-[28px] font-light text-slate-900 mt-2">
             Learn
             <span className="font-black text-blue-700">
               {' '}
@@ -44,7 +44,7 @@ const Hero = (props: Props) => {
             .
           </h1>
 
-          <div className="my-5 mb-10 text-[28px] font-light text-gray-900">
+          <div className="my-5 mb-5 md:mb-10 text-[18px] md:text-[28px]  font-light text-gray-900">
             <h1>
               Starting from
               <span className="font-black text-blue-700">
@@ -59,7 +59,7 @@ const Hero = (props: Props) => {
 
           <Timer expiryTimestamp={time} />
           {/* ---------------CTA BUTTON---------------- */}
-          <Button className="!bg-green-1 hover:!bg-green-2 !mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
+          <Button className="!bg-green-1 hover:!bg-green-2 !mt-5 md:!mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
             Book your seat now
             <span className="text-xs font-normal capitalize text-black/50 ">
               offer expiring soon

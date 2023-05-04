@@ -22,7 +22,7 @@ const Timer = ({ expiryTimestamp }: Props) => {
   });
   return (
     <div className="flex items-center justify-center w-full text-center">
-      <div className="text-[32px] md:text-[40px] flex text-black/20">
+      <div className="text-[18px]  md:text-[40px] flex text-black/20">
         {/* <div className="flex flex-col items-center justify-center gap-0 bg-white text-black w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-xl drop-shadow-lg">
           <span className="mt-[-5px] md:mt-[-20px]">
             {days < 10 ? `0${days}` : days}
@@ -30,26 +30,26 @@ const Timer = ({ expiryTimestamp }: Props) => {
           <span className="text-xs text-white/40 mt-[-10px]">Day</span>{' '}
         </div>
         : */}
-        <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full drop-shadow-lg">
+        <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full drop-shadow-lg">
           <span className="mt-[-5px] md:mt-[-20px]">
             {hours < 10 ? `0${hours}` : hours}
           </span>
-          <span className="text-xs text-white/40 mt-[-10px]">Hours</span>{' '}
+          <span className="text-xs text-white/40 ">Hours</span>{' '}
         </div>
-        <div className='flex items-center h-[100px] mx-2'>:</div>
-        <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full drop-shadow-lg">
+        <div className='flex items-center h-[70px] md:h-[100px] mx-2'>:</div>
+        <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full drop-shadow-lg">
           <span className="mt-[-5px] md:mt-[-20px]">
             {minutes < 10 ? `0${minutes}` : minutes}
           </span>
-          <span className="text-xs text-white/40 mt-[-10px]">Minutes</span>{' '}
+          <span className="text-xs text-white/40 ">Minutes</span>{' '}
         </div>
-        <div className='flex items-center h-[100px] mx-2'>:</div>
+        <div className='flex items-center h-[70px] md:h-[100px] mx-2'>:</div>
         
-        <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full drop-shadow-lg">
+        <div className="flex flex-col items-center justify-center gap-0 bg-rose-500 text-white w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full drop-shadow-lg">
           <span className="mt-[-5px] md:mt-[-20px]">
             {seconds < 10 ? `0${seconds}` : seconds}
           </span>
-          <span className="text-xs text-white/40 mt-[-10px]">Seconds</span>{' '}
+          <span className="text-xs text-white/40 ">Seconds</span>{' '}
         </div>
       </div>
       {/* <p>{isRunning ? 'Running' : 'Not running'}</p> */}
