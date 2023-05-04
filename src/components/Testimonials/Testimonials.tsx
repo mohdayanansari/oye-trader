@@ -6,11 +6,11 @@ type Props = {};
 
 const Testimonials = (props: Props) => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen bg-slate-50">
-      <div className="mt-[-80px] mb-[80px]">
+    <section className="flex flex-col items-center justify-center mt-20 md:mt-0 md:h-screen bg-slate-50">
+      <div className="md:mt-[-80px] md:mb-[80px] pb-10 md:pb-0">
         <SectionHeading title="Testimonials" />
       </div>
-      <div className="flex justify-center gap-14">
+      <div className="flex flex-col justify-center px-[10px] md:px-0 md:flex-row gap-14">
         {cardData.map((item, index) => {
           return (
             <Cards

@@ -5,8 +5,8 @@ type Props = {};
 
 const Pricing = (props: Props) => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen bg-slate-50 ">
-      <div className="relative flex flex-col items-end text-[32px] font-black text-[#252525]">
+    <section className="flex flex-col items-center justify-center pt-20 md:h-screen bg-slate-50 md:pt-0 px-[10px] md:px-0">
+      <div className="relative flex flex-col items-end text-[32px] font-black text-[#252525] ">
         <div className="z-20">Ready to get started?</div>
         {/* <div className="w-[120px] h-[15px] bg-green-1 rounded-xl mt-[-20px] " /> */}
       </div>
@@ -15,15 +15,15 @@ const Pricing = (props: Props) => {
       </p>
 
       {/* --------------------CARDS----------------- */}
-      <div className="w-full md:w-[70%] bg-gradient-to-tl from-blue-800 to-blue-900 h-[550px] rounded-3xl drop-shadow-lg mt-10 p-2 md:p-10">
+      <div className="w-full md:w-[70%] bg-gradient-to-tl from-blue-800 to-blue-900 md:h-[550px] rounded-3xl drop-shadow-lg mt-10 p-2 md:p-10">
         <h4 className="text-[28px] text-white font-bold text-center border-b border-white/30 pb-2">
           Here&apos;s what you&apos;ll get!
         </h4>
         <p></p>
 
-        <div className="flex gap-5 mt-10">
+        <div className="flex flex-col gap-5 mt-10 md:flex-row">
           {/* Desc col */}
-          <div className="text-white flex flex-col gap-4 w-[65%]">
+          <div className="text-white flex flex-col gap-4 md:w-[65%]">
             <p>
               ✅
               <span className="text-lg text-white/90 ">

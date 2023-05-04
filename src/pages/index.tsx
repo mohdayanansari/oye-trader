@@ -39,9 +39,9 @@ export default function Home() {
         <Hero />
         <Testimonials />
         <Pricing />
-        <section className="flex justify-center w-full bg-[#f2f2f2] drop-shadow-xl mt-20">
-          <div className="w-full md:w-[70%]  flex justify-center p-10 items-center h-[300px]">
-            <div className="flex items-center justify-center">
+        <section className="flex flex-col md:flex-row justify-center w-full bg-[#f2f2f2] drop-shadow-xl mt-20">
+          <div className="w-full md:w-[70%]  flex flex-col md:flex-row justify-center p-10 items-center md:h-[300px]">
+            <div className="flex items-center justify-center ">
               <div>
                 <Image
                   src="/icons/lock.png"
@@ -51,26 +51,26 @@ export default function Home() {
                 />
               </div>
               <div>
-                <h1 className="text-[32px] text-rose-600 font-black ">
+                <h1 className="text-2xl md:text-[32px] text-rose-600 font-black ">
                   Secure Processing
                 </h1>
-                <p className="text-gray-600 w-[60%]">
+                <p className="text-gray-600 md:w-[60%]">
                   Each order is processed through a secure, 256-bit encrypted
                   payment processing gateway to ensure your privacy.
                 </p>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center mt-10 md:mt-0">
               <div>
                 <Image
                   src="/icons/guar.png"
                   alt="Oye Trader Payment"
-                  width={200}
-                  height={200}
+                  width={140}
+                  height={140}
                 />
               </div>
               <div>
-                <h1 className="text-[32px] text-rose-600 font-black ">
+                <h1 className="text-2xl md:text-[32px] text-rose-600 font-black ">
                   100% Satisfaction Guarantee
                 </h1>
                 <p className="text-gray-600 ">

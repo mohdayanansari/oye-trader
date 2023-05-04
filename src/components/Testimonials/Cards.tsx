@@ -11,7 +11,7 @@ type Props = {
 
 const Cards = ({ name, img, desc, rating }: Props) => {
   return (
-    <div className="flex flex-col items-center justify-center p-5 gap-3 w-[400px] h-[450px] border border-gray-100 bg-white drop-shadow-xl rounded-2xl hover:scale-105 transition-all ease-in-out duration-300">
+    <div className="flex flex-col items-center justify-center p-5 gap-3 md:w-[400px] md:h-[450px] border border-gray-100 bg-white drop-shadow-xl rounded-2xl hover:scale-105 transition-all ease-in-out duration-300">
       {/* Image */}
       <div className="relative w-[100px] h-[100px] rounded-full  bg-white drop-shadow-lg">
         <Image
