@@ -18,8 +18,8 @@ const OurApp = (props: Props) => {
         />
       </div>
       <div className="md:w-1/2">
-        <h1 className="text-2xl md:text-[78px] font-black text-[#252525]">Download</h1>
-        <h3 className="text-2xl md:text-[52px] font-light text-[#252525] md:mt-[-30px] md:mb-[30px]">
+        <h1 className="text-4xl md:text-[78px] font-black text-[#252525]">Download</h1>
+        <h3 className="text-4xl md:text-[52px] font-light text-[#252525] md:mt-[-30px] md:mb-[30px]">
           Oye Trader App
         </h3>
         <p className="md:mt-[-30px] md:mb-[30px] text-gray-700 md:w-[80%] text-sm md:text-base mt-10 md:mt-0">
