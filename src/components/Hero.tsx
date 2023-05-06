@@ -1,7 +1,7 @@
-import React from 'react';
-import Timer from './Timer';
 import Button from '@mui/material/Button';
 import Link from 'next/link';
+import React from 'react';
+import Timer from './Timer';
 
 type Props = {};
 
@@ -19,9 +19,9 @@ const Hero = (props: Props) => {
               autoPlay
               loop
               controls
-              className="aspect-video w-full  lg:w-[600px] xl:w-[800px] rounded-lg"
+              className="aspect-video w-full  lg:w-[600px] lg:h-[500px] xl:w-[700px] rounded-lg"
             >
-              <source src="/video/intro.mp4" type="video/mp4" />
+              <source src="/video/videotrader.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -47,12 +47,12 @@ const Hero = (props: Props) => {
 
           <div className="my-5 mb-5 md:mb-10 text-[18px] md:text-[28px]  font-light text-gray-900">
             <h1>
-              Starting from
+              Batches Starting from
               <span className="font-black text-blue-700">
                 {' '}
                 15
-                <span className="text-xs mb-[-20px]">th</span> may 2023,
-                09:00-PM Onwards
+                <span className="text-xs mb-[-20px]">th</span> of Every Month,
+                09:30 PM Onwards
               </span>
             </h1>
           </div>
@@ -60,7 +60,7 @@ const Hero = (props: Props) => {
 
           <Timer expiryTimestamp={time} />
           {/* ---------------CTA BUTTON---------------- */}
-          <Link href="https://rzp.io/l/oye-trader" className='flex w-full'>
+          <Link href="https://rzp.io/l/oye-trader" className="flex w-full">
             <Button className="!bg-green-1 hover:!bg-green-2 !mt-5 !w-full md:!mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
               Book your seat now
               <span className="text-xs font-normal capitalize text-black/50 ">
