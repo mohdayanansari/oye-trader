@@ -1,7 +1,7 @@
-import React from 'react';
-import SectionHeading from './SectionHeading';
-import { FcWorkflow } from 'react-icons/fc';
 import Image from 'next/image';
+import React from 'react';
+import { FcWorkflow } from 'react-icons/fc';
+import SectionHeading from './SectionHeading';
 
 type Props = {};
 
@@ -17,7 +17,13 @@ const Curriculum = (props: Props) => {
             src={'/imgs/aas.png'}
             fill
             alt="Oye Trader Curriculum"
-            className="object-contain object-center rounded-xl"
+            className="hidden object-contain object-center rounded-xl md:block"
+          />
+          <Image
+            src={'/imgs/mobile.png'}
+            fill
+            alt="Oye Trader Curriculum"
+            className="object-contain object-center md:hidden rounded-xl"
           />
         </div>
       </div>
