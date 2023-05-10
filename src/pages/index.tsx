@@ -1,14 +1,14 @@
-import { Inter } from 'next/font/google';
-import Header from '@/layouts/Header/Header';
-import Hero from '@/components/Hero';
-import Testimonials from '@/components/Testimonials/Testimonials';
-import Pricing from '@/components/Pricing/Pricing';
-import Image from 'next/image';
-import Curriculum from '@/components/Curriculum';
 import OurApp from '@/components/App/OurApp';
+import Curriculum from '@/components/Curriculum';
 import FAQ from '@/components/FAQ';
+import Hero from '@/components/Hero';
+import Pricing from '@/components/Pricing/Pricing';
+import Testimonials from '@/components/Testimonials/Testimonials';
 import FooterSection from '@/layouts/Footer/FooterSection';
+import Header from '@/layouts/Header/Header';
+import { Inter } from 'next/font/google';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Oye Trader</title>
-        <link rel="icon" href="/logo/logo-wot-white.png" />
+        <link rel="icon" href="/fff.png" />
         <meta
           name="description"
           content="Learn Professional Trading Skills with India’s Most Powerful Online Program."
@@ -32,7 +32,6 @@ export default function Home() {
           Become a Profitable Trader and generate your Passive Income through Trading."
         />
         <meta property="og:image" content={'/imgs/og.png'} />
-
       </Head>
       <main className={`${inter.className} w-full bg-slate-50`}>
         <Header />
