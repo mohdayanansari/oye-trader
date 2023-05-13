@@ -27,7 +27,7 @@ const Pricing = (props: Props) => {
               ✅
               <span className="text-lg text-white/90 ">
                 Live Classes : One month alternate live sessions - MWF :
-                Starting from 15th May, 09:00 PM onwards
+                Starting from 1st June 2023, 09:30 PM onwards
                 <strong> (Value ₹999)</strong>
               </span>
             </p>
@@ -88,7 +88,7 @@ const Pricing = (props: Props) => {
           {/* pricing col */}
           <div className="flex flex-col items-center justify-center flex-1">
             <div className="flex flex-col gap-3 text-center text-white ">
-              <p className="text-2xl line-through">Total Value: ₹14, 494/- </p>
+              <p className="text-2xl line-through">Total Value: ₹14,494/- </p>
               <p className="text-2xl line-through">Only: ₹7,999/-</p>
               <div className="p-5 mt-5 text-3xl font-black bg-green-2 rounded-xl animate-bounce">
                 Now ₹1999/- <br />
@@ -98,7 +98,7 @@ const Pricing = (props: Props) => {
               </div>
             </div>
             {/* payment btn */}
-            <Link href={'https://rzp.io/l/oye-trader'} className='w-full'>
+            <Link href={'https://rzp.io/l/oye-trader'} className="w-full">
               <Button
                 variant="outlined"
                 className="!border-2  !border-white !w-[100%] !h-[80px] !rounded-2xl !text-white !font-bold !capitalize !text-[24px] mt-5 hover:!bg-green-2 !flex !flex-col !items-center !justify-center !pb-2"

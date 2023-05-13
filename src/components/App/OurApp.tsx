@@ -1,6 +1,6 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
 
 type Props = {};
 
@@ -18,19 +18,17 @@ const OurApp = (props: Props) => {
         />
       </div>
       <div className="md:w-1/2">
-        <h1 className="text-4xl md:text-[78px] font-black text-[#252525]">Download</h1>
+        <h1 className="text-4xl md:text-[78px] font-black text-[#252525]">
+          Download
+        </h1>
         <h3 className="text-4xl md:text-[52px] font-light text-[#252525] mt-10">
           Oye Trader App
         </h3>
         <p className=" md:mb-[30px] text-gray-700 md:w-[80%] text-sm md:text-base mt-10 ">
-          Whether you&apos;re a seasoned trader or a novice investor, this app
-          has something for everyone. With real-time market updates, expert
-          analysis, and trading strategies, you can make informed investment
-          decisions and stay ahead of the curve. Oye Trader offers a
-          user-friendly interface, making it easy to navigate through various
-          trading options and learn more about the stock market. So, what are
-          you waiting for? Download Oye Trader now and take your trading game
-          to the next level.
+          Unlock the secrets of successful trading with Oye Trader. We offer
+          live and recorded classes on market analysis, risk management, and
+          trading psychology. Join to start your journey towards financial
+          success!
         </p>
         <Link
           href={'https://play.google.com/store/apps/details?id=co.diy17.wczoq'}

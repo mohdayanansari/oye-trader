@@ -19,9 +19,9 @@ const Hero = (props: Props) => {
               autoPlay
               loop
               controls
-              className="aspect-video w-full  lg:w-[600px] lg:h-[500px] xl:w-[700px] rounded-lg"
+              className="aspect-video w-full  lg:w-[780px] lg:h-[500px] xl:w-[850px] rounded-lg"
             >
-              <source src="/video/videotrader.mp4" type="video/mp4" />
+              <source src="/video/in.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -50,9 +50,8 @@ const Hero = (props: Props) => {
               Batches Starting from
               <span className="font-black text-blue-700">
                 {' '}
-                15
-                <span className="text-xs mb-[-20px]">th</span> of Every Month,
-                09:30 PM Onwards
+                1<span className="text-xs mt-[-40px]">st</span> June 2023, 09:30
+                PM Onwards
               </span>
             </h1>
           </div>
