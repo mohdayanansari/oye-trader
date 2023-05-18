@@ -1,5 +1,3 @@
-import React from 'react';
-
 const index = () => {
   return (
     <div className="p-20">
@@ -132,7 +130,7 @@ const index = () => {
         <br />
         We have made every effort to display as accurately as possible the
         colors and images of our products that appear at the store. We cannot
-        guarantee that your computer monitor's display of any color will be
+        guarantee that your computer monitor&apos;s display of any color will be
         accurate.
         <br />
         <br />
@@ -222,9 +220,9 @@ const index = () => {
         We are not liable for any harm or damages related to the purchase or use
         of goods, services, resources, content, or any other transactions made
         in connection with any third-party websites. Please review carefully the
-        third-party's policies and practices and make sure you understand them
-        before you engage in any transaction. Complaints, claims, concerns, or
-        questions regarding third-party products should be directed to the
+        third-party&apos;s policies and practices and make sure you understand
+        them before you engage in any transaction. Complaints, claims, concerns,
+        or questions regarding third-party products should be directed to the
         third-party.
         <br />
         <br />
@@ -234,12 +232,12 @@ const index = () => {
         If, at our request, you send certain specific submissions (for example
         contest entries) or without a request from us you send creative ideas,
         suggestions, proposals, plans, or other materials, whether online, by
-        email, by postal mail, or otherwise (collectively, 'comments'), you
-        agree that we may, at any time, without restriction, edit, copy,
-        publish, distribute, translate and otherwise use in any medium any
-        comments that you forward to us. We are and shall be under no obligation
-        (1) to maintain any comments in confidence; (2) to pay compensation for
-        any comments; or (3) to respond to any comments.
+        email, by postal mail, or otherwise (collectively,
+        &apos;comments&apos;), you agree that we may, at any time, without
+        restriction, edit, copy, publish, distribute, translate and otherwise
+        use in any medium any comments that you forward to us. We are and shall
+        be under no obligation (1) to maintain any comments in confidence; (2)
+        to pay compensation for any comments; or (3) to respond to any comments.
         <br />
         <br />
         We may, but have no obligation to, monitor, edit or remove content that
@@ -333,11 +331,11 @@ const index = () => {
         You expressly agree that your use of, or inability to use, the service
         is at your sole risk. The service and all products and services
         delivered to you through the service are (except as expressly stated by
-        us) provided 'as is' and 'as available' for your use, without any
-        representation, warranties or conditions of any kind, either express or
-        implied, including all implied warranties or conditions of
-        merchantability, merchantable quality, fitness for a particular purpose,
-        durability, title, and non-infringement.
+        us) provided &apos;as is&apos; and &apos;as available&apos; for your
+        use, without any representation, warranties or conditions of any kind,
+        either express or implied, including all implied warranties or
+        conditions of merchantability, merchantable quality, fitness for a
+        particular purpose, durability, title, and non-infringement.
         <br />
         <br />
         In no case shall Oye Trader, our directors, officers, employees,
