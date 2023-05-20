@@ -14,12 +14,12 @@ const Hero = (props: Props) => {
       <div className="flex flex-col lg:flex-row px-[20px]  md:px-[100px] md:gap-8 w-full justify-between ">
         {/* --------------Video--------------- */}
         <div>
-          <div className="p-3 bg-white border border-gray-100 rounded-xl drop-shadow-xl">
+          <div className="p-2 bg-white border border-gray-100 rounded-xl drop-shadow-xl">
             <video
               autoPlay
               loop
               controls
-              className="aspect-video w-full  lg:w-[780px] lg:h-[500px] xl:w-[850px] rounded-lg"
+              className="aspect-video w-full  lg:w-[780px] lg:h-full xl:w-[850px] rounded-lg"
             >
               <source src="/video/in.mp4" type="video/mp4" />
             </video>
@@ -47,7 +47,7 @@ const Hero = (props: Props) => {
 
           <div className="my-5 mb-5 md:mb-10 text-[18px] md:text-[28px]  font-light text-gray-900">
             <h1>
-              Batches Starting from
+              Starting from
               <span className="font-black text-blue-700">
                 {' '}
                 1<span className="text-xs mt-[-40px]">st</span> June 2023, 09:30

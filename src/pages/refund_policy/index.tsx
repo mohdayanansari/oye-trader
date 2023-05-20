@@ -45,7 +45,7 @@ function index() {
         company, it may take some time before your refund is officially posted.
         Next contact your bank. There is often some processing time before a
         refund is posted. If you’ve done all of this and you still have not
-        received your refund yet, please contact us at support@gmail.com.
+        received your refund yet, please contact us at support@oyetrader.com.
         <br />
         <br />
         Sale items (if applicable) Only regular priced items may be refunded,

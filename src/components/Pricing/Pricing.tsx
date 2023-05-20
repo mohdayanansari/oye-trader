@@ -91,7 +91,7 @@ const Pricing = (props: Props) => {
               <p className="text-2xl line-through">Total Value: ₹14,494/- </p>
               <p className="text-2xl line-through">Only: ₹7,999/-</p>
               <div className="p-5 mt-5 text-3xl font-black bg-green-2 rounded-xl animate-bounce">
-                Now ₹1999/- <br />
+                Now ₹449/- <br />
                 <span className="text-xs text-white/80 font-normal mt-[-20px]">
                   Limited time offer!
                 </span>
