@@ -30,10 +30,10 @@ const Header = (props: Props) => {
         </p>
         <div className="flex flex-col md:flex-row items-center divide-y md:divide-y-0 md:divide-x mt-[10px] md:mt-[5px]">
           <Link
-            href={'mailto:sumittiwari630@gmail.com'}
+            href={'mailto:support@oyetrader.com'}
             className="mb-[10px] md:mb-0 md:mr-[10px] hover:text-blue-600 transition-all duration-200 ease-in-out hover:animate-pulse"
           >
-            sumittiwari630@gmail.com
+            support@oyetrader.com
           </Link>
           <Link
             href={'tel:9115325925'}
