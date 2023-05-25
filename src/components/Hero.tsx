@@ -40,7 +40,7 @@ const Hero = (props: Props) => {
             with India’s Most
             <span className="font-black text-green-2 ">
               {' '}
-              Powerful Online Program..
+              Powerful Online Program
             </span>
             .
           </h1>
