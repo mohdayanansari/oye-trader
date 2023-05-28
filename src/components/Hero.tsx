@@ -50,7 +50,7 @@ const Hero = (props: Props) => {
               Starting from
               <span className="font-black text-blue-700">
                 {' '}
-                1<span className="text-xs mt-[-40px]">st</span> June 2023, 09:30
+                15<span className="text-xs mt-[-40px]">th</span> June 2023, 09:30
                 PM Onwards
               </span>
             </h1>
@@ -59,7 +59,7 @@ const Hero = (props: Props) => {
 
           <Timer expiryTimestamp={time} />
           {/* ---------------CTA BUTTON---------------- */}
-          <Link href="https://rzp.io/l/oye-trader" className="flex w-full">
+          <Link href="https://classplusapp.com/w/wlp/wczoq/course-wczoq-1" className="flex w-full">
             <Button className="!bg-green-1 hover:!bg-green-2 !mt-5 !w-full md:!mt-10 !py-4 !rounded-xl !flex !flex-col !text-[22px] md:!text-[24px] !text-[#252525] hover:!text-white !font-black hover:!drop-shadow-xl">
               Book your seat now
               <span className="text-xs font-normal capitalize text-black/50 ">
