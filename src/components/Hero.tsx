@@ -50,7 +50,7 @@ const Hero = (props: Props) => {
               Starting from
               <span className="font-black text-blue-700">
                 {' '}
-                15<span className="text-xs mt-[-40px]">th</span> June 2023, 09:30
+                20<span className="text-xs mt-[-40px]">th</span> June 2023, 09:30
                 PM Onwards
               </span>
             </h1>

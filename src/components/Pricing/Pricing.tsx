@@ -27,7 +27,7 @@ const Pricing = (props: Props) => {
               ✅
               <span className="text-lg text-white/90 ">
                 Live Classes : One month alternate live sessions - MWF :
-                Starting from 15th June 2023, 09:30 PM onwards
+                Starting from 20th June 2023, 09:30 PM onwards
                 <strong> (Value ₹999)</strong>
               </span>
             </p>
